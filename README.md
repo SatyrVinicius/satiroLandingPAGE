@@ -179,17 +179,11 @@ Frases que devem aparecer na página (copy de vendas):
 
  Organize sua empresa e aumente seus resultados
 
-This project was built with [Lovable](https://lovable.dev).
+Este projeto foi desenvolvido para a Sátiro Sistemas.
 
-**Live app**: https://satirosistemas.lovable.app
+## Sátiro Sistemas
 
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/237bac0d-5022-4cb9-adff-f80bc77f1f80).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+Soluções para organizar e fazer sua empresa crescer.
 
 ## Development
 
