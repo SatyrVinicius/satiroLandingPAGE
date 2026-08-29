@@ -1,4 +1,4 @@
-import { CtaWhatsApp, CtaInstagram, CtaEbook } from "@/components/CtaButtons";
+import { CtaWhatsApp, CtaInstagram } from "@/components/CtaButtons";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const CtaSection = () => (
@@ -16,7 +16,6 @@ const CtaSection = () => (
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <CtaWhatsApp size="xl" />
           <CtaInstagram size="lg" />
-          <CtaEbook size="lg" />
         </div>
       </ScrollReveal>
     </div>

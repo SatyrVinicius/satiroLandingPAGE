@@ -1,9 +1,8 @@
-import { MessageCircle, Instagram, BookOpen } from "lucide-react";
+import { MessageCircle, Instagram } from "lucide-react";
 import { Button, type ButtonProps } from "@/components/ui/button";
 
 const WHATSAPP_URL = "https://wa.me/5584933004200?text=Quero%20saber%20mais%20sobre%20seus%20sistemas";
 const INSTAGRAM_URL = "https://www.instagram.com/satirosistemas/";
-const EBOOK_URL = "https://drive.google.com/file/d/1Z8sTlOZ9zDEI6LBcgGVuv-wX4jZT4XfT/view?usp=sharing";
 
 type CtaProps = { size?: ButtonProps["size"]; className?: string };
 export const CtaWhatsApp = ({ size = "lg", className = "" }: CtaProps) => (
@@ -22,12 +21,4 @@ export const CtaInstagram = ({ size = "lg", className = "" }: CtaProps) => (
   </a>
 );
 
-export const CtaEbook = ({ size = "lg", className = "" }: CtaProps) => (
-  <a href={EBOOK_URL} target="_blank" rel="noopener noreferrer">
-    <Button variant="ebook" size={size} className={className}>
-      <BookOpen /> Ver nosso catálogo
-    </Button>
-  </a>
-);
-
-export { WHATSAPP_URL, INSTAGRAM_URL, EBOOK_URL };
+export { WHATSAPP_URL, INSTAGRAM_URL };

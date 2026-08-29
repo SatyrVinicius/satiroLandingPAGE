@@ -1,5 +1,5 @@
-import { MessageCircle, Instagram, BookOpen } from "lucide-react";
-import { WHATSAPP_URL, INSTAGRAM_URL, EBOOK_URL } from "@/components/CtaButtons";
+import { MessageCircle, Instagram } from "lucide-react";
+import { WHATSAPP_URL, INSTAGRAM_URL } from "@/components/CtaButtons";
 import ScrollReveal from "@/components/ScrollReveal";
 import logoBranca from "@/assets/logo-branca.png";
 
@@ -17,9 +17,6 @@ const FooterSection = () => (
           </a>
           <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground/80 hover:text-instagram transition-colors">
             <Instagram size={20} /> @satirosistemas
-          </a>
-          <a href={EBOOK_URL} className="flex items-center gap-2 text-primary-foreground/80 hover:text-ebook transition-colors">
-            <BookOpen size={20} /> Baixar eBook
           </a>
         </div>
         <p className="text-primary-foreground/40 text-sm">

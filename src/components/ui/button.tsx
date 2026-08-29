@@ -17,7 +17,6 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         whatsapp: "bg-whatsapp text-primary-foreground hover:opacity-90 shadow-lg shadow-whatsapp/30 animate-pulse-soft",
         instagram: "bg-instagram text-primary-foreground hover:opacity-90 shadow-lg shadow-instagram/30",
-        ebook: "bg-ebook text-primary-foreground hover:opacity-90 shadow-lg shadow-ebook/30",
       },
       size: {
         default: "h-10 px-4 py-2",
